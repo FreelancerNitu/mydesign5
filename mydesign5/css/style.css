@@ -1,0 +1,892 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: regular;
+    font-size: 14px;
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+[class*="col"] {
+    float: left;
+    padding: 15px;
+}
+
+[class*="col"] {
+    width: 100%;
+}
+
+/* Header section start here */
+header {
+    background: #24a19c;
+    padding: 0% 1%;
+    text-align: center;
+}
+
+.logo {
+    margin: 15px;
+}
+
+.logo h2 {
+    font-size: 60px;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    line-height: 70px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    border-radius: 10px;
+    background: tomato;
+
+}
+
+/* Header section end here */
+/* shop section start here */
+#shop {
+    background: rgb(242, 203, 196);
+    padding: 0% 1%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.shop-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shop-img img {
+    width: 650px;
+}
+
+section#shop p {
+    font-size: 30px;
+    color: #999;
+    margin: 20px;
+}
+
+section#shop h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+section#shop .btn {
+    font-size: 22px;
+    background: tomato;
+    padding: 10px 15px;
+    color: #fff;
+    border: navajowhite;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Shop section end here */
+/* Product section start here */
+.products {
+    padding: 0% 1%;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.card {
+    text-align: center;
+    margin: 0;
+    padding: 0vmin;
+}
+
+.card-body img {
+    max-width: 60%;
+    height: auto;
+
+}
+
+.card-desh1 {
+    margin: 20px auto;
+}
+
+.card-desh1 h3 {
+    font-size: 20px;
+    color: #999;
+    position: relative;
+}
+
+.card-desh1 h3::after {
+    position: absolute;
+    border: 1px solid red;
+    top: 30px;
+    left: 210px;
+    content: "";
+    width: 30px;
+
+}
+
+.card-desh1 p {
+    font-size: 45px;
+    padding-top: 25px;
+    font-weight: bolder;
+}
+
+/* Product section end here */
+/* Discount section start here */
+
+section#discount {
+    background: tan;
+    padding: 0% 1%;
+    text-align: center;
+}
+
+.discount-desh h2 {
+    font-size: 55px;
+    margin: 20px;
+}
+
+.discount-desh h4 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.discount-desh .btn {
+    font-size: 28px;
+    padding: 10px 15px;
+    background: tomato;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.discount-img {
+    max-width: 100%;
+}
+
+.discount-img img {
+    width: 100%;
+}
+
+/* Discount section end here */
+/* Popular section start here */
+.card-desh {
+    margin: 20px auto;
+}
+
+.card-desh h3 {
+    font-size: 20px;
+    color: #999;
+    position: relative;
+}
+
+.card-desh h3::after {
+    position: absolute;
+    border: 1px solid red;
+    top: 30px;
+    left: 210px;
+    content: "";
+    width: 30px;
+
+}
+
+.card-desh p {
+    font-size: 45px;
+    padding-top: 25px;
+    font-weight: bolder;
+}
+
+.card2 {
+    background: #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-body2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-desh2 {
+    text-align: center;
+}
+
+.card-desh2 h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.card-desh2 p {
+    font-size: 24px;
+    color: #999;
+}
+
+/* Popular section end here */
+/* Journeal section start here */
+#journal {
+    padding: 0% 1%;
+
+}
+
+.card-body3 {
+    text-align: center;
+}
+
+.card-body3 img {
+    width: 100%;
+    height: 700px;
+}
+
+.card-desh3 h5 {
+    font-size: 25px;
+    text-align: center;
+    color: #5f5d5d;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.card-desh3 h4 {
+    font-size: 54px;
+    margin: 20px;
+}
+
+.card-desh3 h4 {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    justify-content: start;
+}
+
+.card-desh3 p {
+    font-size: 21px;
+    color: #999;
+    text-transform: capitalize;
+}
+
+.card-desh3 p a {
+    text-decoration: navajowhite;
+    margin: 0 60px;
+    color: #999;
+}
+
+
+/* Journeal section end here */
+
+/* Follow section start here */
+#follow {
+    padding: 0% 1%;
+    text-align: center;
+}
+
+.follow-img {
+    max-width: 100%;
+}
+
+.follow-img img {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Follow section end here */
+
+/* footer section start here */
+footer {
+    background: #eccfa7;
+    margin: 40px 0;
+}
+
+#footer {
+    padding: 0% 1%;
+    text-align: center;
+}
+
+#footer h3 {
+    font-size: 26px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+.social-menu ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.social-menu ul li a {
+    text-decoration: none;
+    color: #888;
+    font-size: 25px;
+}
+
+.app {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #fff;
+    padding: 20px 0;
+}
+
+.google-app {
+    width: 48%;
+    float: left;
+    background: #fff;
+    padding: 10px 5px;
+}
+
+.app h5 {
+    font-size: 25px;
+}
+
+.app p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.apple-app {
+    width: 48%;
+    float: right;
+    background: tomato;
+    padding: 10px 5px;
+}
+
+.icon-style {
+    color: rgb(96, 51, 219);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 0 10px;
+    transition: .4s;
+    font-size: 25px;
+}
+
+.icon-style:hover {
+    background: gray;
+    transform: scale(1.1);
+}
+
+/* Footer section end here */
+/* Copyright section start here */
+#copyright {
+    text-align: center;
+    border-top: 2px solid #fff;
+    padding: 30px;
+}
+
+#copyright p {
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #999;
+}
+
+#copyright p span {
+    color: tomato;
+}
+
+
+
+/* Copyright section end here */
+
+
+/* Small device (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+
+/* Medium device (portrait tablets and large phones, 768px and up) */
+@media (min-width: 768px) {
+
+    /* Product section start here */
+    .card-desh1 h3::after {
+        top: 34px;
+        left: 450px;
+        width: 45px;
+    }
+
+
+    /* Product section end here */
+
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+
+/* Large device (portrait tablets and large phones, 992px and up) */
+@media (min-width: 992px) {
+
+    /*Header section start here */
+    .logo {
+        text-align: left;
+    }
+
+    .logo h2 {
+        font-size: 40px;
+        text-align: right;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        transition: .4s;
+        padding: 5px 16px;
+        font-size: 15px;
+    }
+
+    nav ul li a:hover {
+        background: transparent;
+        text-decoration: underline;
+        transform: scale(1.2);
+        border-radius: 0;
+    }
+
+    /* Header section end here */
+    /* Shop section start here */
+
+    .shop-desh {
+        margin: 255px auto;
+    }
+
+    .shop-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .shop-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    section#shop .btn {
+        transition: 0.4s;
+        cursor: pointer;
+    }
+
+    section#shop .btn:hover {
+        transform: scale(1.2);
+        background: gray;
+        color: black;
+
+
+    }
+
+    /* Shop section end here */
+    /* Product section start here */
+    .card-body img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    .card-desh1 h3::after {
+
+        left: 135px;
+
+
+    }
+
+    /* Product section end here */
+    /* Discount section start here */
+    section#discount {
+        overflow: hidden;
+    }
+
+    .discount-desh {
+        padding-top: 200px;
+        text-align: center;
+    }
+
+    .discount-img {
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .discount-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Discount section end here */
+
+    /* Popular section start here */
+    .card-desh p {
+        font-size: 16px;
+    }
+
+    .card-desh h3 {
+        font-size: 12px;
+    }
+
+    .card-desh h3::after {
+        left: 108px;
+        width: 25px;
+    }
+
+    .card-body img {
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    .card2 {
+        background: #ddd;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .card-desh2 {
+        text-align: center;
+    }
+
+    .card-desh2 h3 {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    .card-desh2 P {
+        font-size: 12px;
+        color: #999;
+    }
+
+    /* Popular section end here */
+    /* journeal section start here */
+    .card-body3 img {
+        height: 550px;
+        width: 100%;
+    }
+
+    .card-desh3 h5 {
+        font-size: 13px;
+
+    }
+
+    .card-desh3 h4 {
+        font-size: 16px;
+        width: 313px;
+    }
+
+    .card-desh3 p a {
+        text-decoration: none;
+        margin-right: -119px;
+        color: #999;
+        margin: 0 20px;
+    }
+
+    .card-desh3 p {
+        font-size: 12px;
+    }
+
+    /* journeal section end here */
+
+    /* Follow section start here */
+
+    .follow-img {
+        max-width: 100%;
+    }
+
+    .follow-img img {
+        width: 100%;
+    }
+
+
+
+    /* Follow section end here*/
+    /* footer section start here */
+    section#footer h3 {
+        font-size: 17px;
+    }
+
+    .social-menu ul li a {
+
+        font-size: 15px;
+    }
+
+    .app {
+        width: 100%;
+        margin: 0px;
+        overflow: hidden;
+        border-bottom: 1px solid #fff;
+        padding: 15px 0;
+    }
+
+    .google-app {
+        width: 48%;
+        float: left;
+        background: #fff;
+        padding: 10px 5px;
+    }
+
+    .app p {
+        font-size: 14px;
+
+    }
+
+    .app h5 {
+        font-size: 16px;
+    }
+
+    .apple-app {
+        background: tomato;
+        width: 48%;
+        float: right;
+        padding: 10px 5px;
+    }
+
+    .social-icon {
+        text-align: left;
+    }
+
+    .social-icon h3 {
+        font-size: 17px;
+    }
+
+    .social-icon {
+        text-align: left;
+    }
+
+    .social-icon h3 {
+        font-size: 17px;
+    }
+
+    .icon-style {
+        color: rgb(96, 51, 219);
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        text-align: center;
+        margin: 0 10px;
+        transition: .4s;
+        font-size: 18px;
+    }
+
+    .icon-style:hover {
+        background: gray;
+        transform: scale(1.1);
+    }
+
+    /* Footer section end here */
+
+    /* Copyright section start here */
+    #copyright {
+        text-align: center;
+        border-top: 2px solid #fff;
+        padding: 25px;
+    }
+
+    #copyright p {
+        font-size: 14px;
+    }
+
+    #copyright p span {
+        color: tomato;
+        letter-spacing: 2px;
+    }
+
+    #copyright p {
+        color: #777;
+    }
+
+    /* Copyright section end here */
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}
